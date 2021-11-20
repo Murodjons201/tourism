@@ -1,0 +1,22 @@
+.siteleft {
+    width: 440px;
+    height: 790px;
+    position: relative;
+    background-image: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 440px 790px;
+
+    &__span {
+        display: flex;
+        padding: 40px;
+    }
+
+    &__img {
+        margin-right: 5px;
+    }
+
+    &__desc {
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,37 @@
+.nav {
+    margin-bottom: 160px;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        width: 285px;
+        margin: 0;
+        margin-left: auto;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__item {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    &__item + &__item {
+        margin-left: 30px;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: dimgray;
+    }
+
+    &__link:hover {
+        color: #000;
+    }
+
+    &__link:active {
+        color: #000;
+        opacity: 0.5;
+    }
+}
